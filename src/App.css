@@ -1,0 +1,46 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --main-purple: #5d41f8;
+  --light-blue: #3fd0f1;
+}
+
+.App {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.btn {
+  padding: 5px 0;
+
+  background-color: var(--main-purple);
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.form-input {
+  padding: 5px 10px;
+  border: 2px solid var(--main-purple);
+  border-radius: 200px;
+  outline: none;
+}

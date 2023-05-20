@@ -1,0 +1,43 @@
+.item-card {
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid lightgray;
+
+  color: var(--light-blue);
+  font-size: 1.2rem;
+}
+
+.item-card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--main-purple);
+}
+
+.card-media {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-about {
+  padding: 5px;
+}
+
+.card-likes {
+  display: flex;
+  align-items: center;
+}
+
+.card-views {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  object-fit: cover;
+  max-height: 200px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
